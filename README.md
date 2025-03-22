@@ -10,7 +10,7 @@ This strategy integrates several technical indicators to forecast future stock r
 
 - **Moving Averages:** Computes 5-day and 10-day moving averages of the stock prices to capture short-term trends.
 - **Volatility:** Measures the volatility of stock prices over a rolling 5-day window to gauge market uncertainty.
-- **Return Prediction:** Uses all indicators to predict the next day's stock return.
+- **Return Prediction:** in order to avoid outliers and noise' influence, use all indicators to predict the next day's stock return rank to get a robust model.
 
 The model combines these factors to derive trading signals, aiming to exploit patterns detected from historical data to make profitable trading decisions.
 
